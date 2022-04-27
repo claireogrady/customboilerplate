@@ -25,7 +25,8 @@
 
 header{
   grid-area: heady; 
-  background:rgb(254, 218, 175);
+  background:rgb(122, 48, 108);
+  color: white;
 }
 nav {
   grid-area: navvy; 
@@ -36,20 +37,25 @@ main {grid-area: mainy;
   max-height: 100%;
 }
 #aside1 {grid-area: aside1; 
-  background: rgb(241, 202, 174);
+  background: rgb(185, 207, 212);
   text-align: center;
 }
 #aside2 {grid-area: aside2; 
-  background: rgb(191, 226, 246);
+  background: rgb(175, 170, 185);
   text-align: center;
 }
 footer {
   grid-area: footy; 
-  background: rgb(171, 171, 171);
+  background:rgb(122, 48, 108);
+  color: white;
+}
+
+.side-nav {
+  grid-area: navvy;
 }
 
 nav ul {
-  display: flex;
+  display: inline;
   flex-flow: row nowrap;
   justify-content: space-around;
 }
