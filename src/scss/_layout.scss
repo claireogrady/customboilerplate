@@ -6,7 +6,7 @@
   width: 100vw;
   height: 100vh;
   grid-template-columns:
-   3fr       2fr       1fr;
+   1fr       2fr       1fr;
   grid-template-areas:
   "heady     heady     heady"
   "navvy     navvy     navvy"
@@ -16,12 +16,26 @@
   "footy     footy     footy";
 }
 
-header {grid-area: heady; background:rgb(227, 216, 241);}
+header{grid-area: heady; background:rgb(227, 216, 241);}
 nav {grid-area: navvy; background:rgb(0, 169, 165);}
 main {grid-area: mainy; background: rgb(240, 234, 182); max-height: 100%;}
-#aside1 {grid-area: aside1; background: rgb(227, 216, 241);}
-#aside2 {grid-area: aside2; background: rgb(191, 226, 246);}
-footer {grid-area: footy; background: rgb(171, 171, 171);}
+
+#aside1 {
+grid-area: aside1; 
+background: rgb(191, 226, 246);
+text-align: center;
+}
+
+#aside2 {
+grid-area: aside2; 
+background: rgb(191, 226, 246);
+text-align: center;
+}
+
+footer 
+{grid-area: footy; 
+background: rgb(171, 171, 171);
+}
 
 nav ul {
   flex-flow: column nowrap;
