@@ -6,42 +6,32 @@
   margin: 0;
 }
 
-.main_body{
-  text-align: center;
-}
-
-.main_nav{
-  text-align: center;
-}
-
 body {
-  //background: rgb(240, 239, 199);
   background: $bg;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-family: Georgia, serif;
+  font-size: 20px;
 }
 
 h1,
 h2 {
-  font-family: 'David Libre', serif;
-  font-weight: 500;
-  font-size: 1.5em;
-  padding: 1.3em 0;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  padding: 1em;
 }
 
 h2 {font-size:1.25em;}
 
-header,
 nav,
 main,
 aside,
 footer {
   padding: 1.5em;
-  border: 1px black solid;
 }
 
 header{
   text-align: center;
+  padding: 0em;
 }
 
 footer {

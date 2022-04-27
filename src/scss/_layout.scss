@@ -5,18 +5,25 @@
   display: grid;
   width: 100vw;
   height: 100vh;
+  grid-template-areas:
+  "heady heady heady"
+  "navvy mainy aside1"
+  "navvy mainy aside1"
+  "navvy mainy aside2"
+  "navvy mainy aside2"
+  "footy footy footy";
   grid-template-columns:
     1fr       2fr       1fr;
-    grid-template-areas:
-    "heady     heady     heady"
-    "navvy     navvy     navvy"
-    "aside1    mainy     aside2"
-    "aside1    mainy     aside2"
-    "aside1    mainy     aside2"
-    "footy     footy     footy";
+}
+.main_body{
+  text-align: center;
 }
 
-header {
+.main_nav{
+  text-align: center;
+}
+
+header{
   grid-area: heady; 
   background:rgb(254, 218, 175);
 }
