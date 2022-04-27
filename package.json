@@ -1,25 +1,29 @@
 {
   "name": "customboiler",
   "version": "1.0.0",
-  "description": "Custom HTML5 boilderplate with a webpack dart-sass setup.",
+  "description": "custom boilerplate for html5 webpack dart-sass",
   "main": "index.js",
   "directories": {
-    "doc": "docs",
+    "doc": "doc",
     "test": "test"
   },
   "scripts": {
-    "build": "./node_modules/.bin/webpack -w"
+    "build": "./node_modules/.bin/webpack -w" 
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "webpack": "^5.72.0",
-    "webpack-cli": "^4.9.2"
-  },
+  "keywords": [
+    "html5",
+    "webpack",
+    "dart-sass"
+  ],
+  "author": "Claire O'Grady",
+  "license": "MIT",
   "devDependencies": {
-    "css-loader": "^6.7.1",
-    "sass": "^1.51.0",
+    "css-loader": "^6.6.0",
+    "sass": "^1.49.9",
     "sass-loader": "^12.6.0",
-    "style-loader": "^3.3.1"
+    "style-loader": "^3.3.1",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
   }
 }
+
