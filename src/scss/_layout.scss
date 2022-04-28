@@ -7,17 +7,14 @@
   height: 100vh;
   grid-template-areas:
   "heady heady heady"
-<<<<<<< HEAD
   "aside1 mainy aside1"
   "aside1 mainy aside1"
   "navvy mainy aside2"
   "navvy mainy aside2"
-=======
   "aside1 aside2 aside3"
   "aside1 aside2 aside3"
   "aside4 aside5 aside6"
   "aside4 aside5 aside6"
->>>>>>> e322cae43fccbf3cc5c4e5ecf82126a468dc3e03
   "footy footy footy";
   grid-template-columns:
     1fr       1fr       1fr;
